@@ -1,6 +1,8 @@
 table{
     width: 50%;
     margin: 0 auto;
+    border-spacing: 2em;
+    border-collapse: separate;
 }
 
 tr{
@@ -16,9 +18,9 @@ td,tr{
 }
 .bottom{
     background-color: rgb(169,169,169);
-    height: 150px;
+    height: 120px;
     border-radius: 10px;
-    line-height: 150px;
+    line-height: 120px;
 }
 .buttons{
     width: 25%;
@@ -35,22 +37,25 @@ td,tr{
 .center{
     border-radius:15px;
     border: 5px rgb(169,169,169) solid;
-    padding: auto;
+    padding: 0;
+    margin: 0 20px;
 }
 #answer{
     text-align: center;
     font-size: 80px;
     font-weight: 600;
     line-height: 3em;
+    border: none;
 }
 #number{
-    line-height: 150px;
+    line-height: 152px;
     outline-style: none;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: 500;
     text-align: center;
     margin: 0 auto;
+    border-radius: 15px;
     background-color: white;
     padding: 0;
-    width: 97%;
+    width: 98%;
 }
